@@ -1,20 +1,28 @@
-<h1 align="center">John's Coding Page</h1>
-
+<!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+
+<h1 id="h1">John's Coding Page</h1>
+
   <body>
     <div>
-    <p align="right">
+    <p>
       <img src ="images/johnpic.jpg" alt "">
        </p>
-       <p style="float: left"> John is a professional teacher/trainer that also “self”-taught himself coding with a little help from books, the internet, and some friends.
+       <p class="p"> John is a professional teacher/trainer that also “self”-taught himself coding with a little help from books, the internet, and some friends.
 First things first, coding is not easy if you know nothing about it. However, even after a few days someone that knew nothing about coding can create a simple webpage for themselves. The biggest problem I came across when trying to find solutions to my problems was that I was speaking a different language. My first language is English, and I was trying to learn from people that spoke a different language, code language.
 That being said, the first thing everyone trying to learn code should do is learn the language. Once you know that language, searching for answers and troubleshooting problems becomes immensely easier. Below, you will find some meaning to some words that you have heard before.
  </p>
-       <div>
+       <div class="div">
     <div class="contact" style="background-image:url(http://www.leegoldberg.com/wp-content/uploads/2014/08/Direct-Mail1.jpg);background-repeat:no-repeat; background-position:center;">
     <div id="contact" class="contact">
-      <h10> Contact </h10>
-      <h7 text-align="center"> If you would like to contact me for more information please fill out the required fields on the form to the left.</h7>
+      <h2> Contact </h2>
+      <h3>
+        If you would like to contact me for more information please fill out the required fields on the form to the left.
+      </h3>
     <form class="contact-buttons">
       First Name: <br><input type="text" name="firstname">  </br>
       Last Name: <br> <input type="text" name="lastname"> </br>
