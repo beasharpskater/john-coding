@@ -22,8 +22,8 @@ body {
 }
 
 #johnpic {
-  margin-left:100px;
-  padding-right:60px;
+  margin-left:80px;
+  padding-right:30px;
   float:left;
   width:30%;
   }
@@ -31,8 +31,9 @@ body {
   color: white;
   font-size:18px;
   align-content: right;
-  padding-top: 60px;
-  width: 70%;
+  padding-top: 80px;
+  padding-right: -300px;
+  width: 80%;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
